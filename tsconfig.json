@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "declaration": true,
+        "removeComments": true,
+        "noImplicitAny": false,
+        "outDir": "javascript",
+        "typeRoots": ["./node_modules/@types"],
+        "types": ["node","cucumber","selenium-webdriver"]
+    },
+    "exclude": [
+        "node_modules",
+        "javascript"
+    ]
+}

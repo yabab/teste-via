@@ -1,0 +1,10 @@
+{
+    "datafile1":{
+        "fileName":"dados",
+        "filePath":"massa.json"    
+    },
+    "datafile2":{
+        "fileName":"casas_bahia",
+        "filePath":"elementos.json"
+    }
+}

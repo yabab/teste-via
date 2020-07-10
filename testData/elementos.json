@@ -1,0 +1,74 @@
+{
+    "home": {
+        "campo_busca": {
+            "css": ".nav-search-input",
+            "texto": ""
+        },
+        "botao_busca": {
+            "css": ".nav-search-btn",
+            "texto": ""
+        },
+        "atendimento": {
+            "deslogado": {
+                "css": "a[data-link-id=\"login\"]",
+                "texto": ""
+            },
+            "logado": {
+                "css": "#nav-header-username",
+                "texto": "#dados.usuario.nome$"
+            }
+        }
+    },
+    "busca": {
+        "primeiro_resultado": {
+            "css": ".results-item:nth-child(1)",
+            "texto": "",
+            "nome_produto": {
+                "css":".main-title",
+                "texto": "#dados.chaveBusca$"
+            }
+        }
+    },
+    "login": {
+        "campo_email": {
+            "css": "#user_id",
+            "texto": ""
+        },
+        "botao_continuar": {
+            "css": "button[type='submit']",
+            "texto":""
+        },
+        "campo_senha": {
+            "css": "#password",
+            "texto": ""
+        },
+        "botao_login": {
+            "css": "#action-complete",
+            "texto": ""
+        }
+    },
+    "pdp": {
+        "caixa_de_compra": {
+            "css":".ui-pdp-buybox",
+            "texto": "",
+            "botao_adicionar_carrinho": {
+                "css": ".andes-button--quiet",
+                "texto": ""
+            }
+        }
+    },
+    "carrinho": {
+        "parabenizacao_carrinho":{
+            "css": "cart-congrats__title",
+            "texto": "Você adicionou ao seu carrinho"
+        },
+        "botao_ver_carrinho": {
+            "css": ".cart-congrats__actions .ui-button--primary",
+            "texto": "Ver carrinho"
+        },
+        "titulo_item_carrinho": {
+            "css": ".andes-button__content",
+            "texto": "Sou novo"
+        }
+    }
+}

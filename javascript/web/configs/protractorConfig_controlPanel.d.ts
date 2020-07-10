@@ -1,0 +1,11 @@
+export declare const webEnvironmentVariablesScanOffset: number;
+export declare const seleniumDefaultConnectionProtocol: string;
+export declare const seleniumDefaultHostAddress: string;
+export declare const seleniumDefaultPortNumber: string;
+export declare const protractorFrameworkOption: string;
+export declare const protractorCustomFrameworkName: string;
+export declare const protractorChromeArgsList: string[];
+export declare const protractorSpecLocationList: string[];
+export declare const protractorCodeLocationList: string[];
+export declare function BuildWebReportFormatGlob(signature: string, testTime: string): string;
+export declare function BuildSeleniumServerConnectionString(seleniumProtocol: string, seleniumHost: string, seleniumPort: string): string;

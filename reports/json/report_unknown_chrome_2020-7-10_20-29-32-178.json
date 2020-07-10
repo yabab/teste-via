@@ -1,0 +1,135 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Adicionar Produto Ao Carrinho",
+    "line": 4,
+    "id": "adicionar-produto-ao-carrinho",
+    "tags": [
+      {
+        "name": "@CB_FUNC",
+        "line": 3
+      }
+    ],
+    "uri": "features\\test.feature",
+    "elements": [
+      {
+        "id": "adicionar-produto-ao-carrinho;adicionar-iphone-xr-ao-carrinho",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Adicionar iPhone XR Ao Carrinho",
+        "tags": [
+          {
+            "name": "@CB_FUNC",
+            "line": 3
+          },
+          {
+            "name": "@CENARIO01",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "code\\web\\support\\cucumberHooksWeb_logic.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu acesse o site das Casas Bahia",
+            "match": {
+              "location": "code\\web\\stepdefinitions\\testSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3918000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "busco por um produto",
+            "match": {
+              "location": "code\\web\\stepdefinitions\\testSteps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "devo encontrar resultados",
+            "match": {
+              "location": "code\\web\\stepdefinitions\\testSteps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 11,
+            "name": "que eu acesse a página do primeiro resultado",
+            "match": {
+              "location": "code\\web\\stepdefinitions\\testSteps.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "clicar no botão do carrinho",
+            "match": {
+              "location": "code\\web\\stepdefinitions\\testSteps.ts:116"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 13,
+            "name": "tenho que chegar ao carrinho com o produto escolhido",
+            "match": {
+              "location": "code\\web\\stepdefinitions\\testSteps.ts:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
